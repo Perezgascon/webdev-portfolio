@@ -1,0 +1,10 @@
+.hero {
+    width: 75%;
+    margin: auto;
+}
+
+.heroSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }

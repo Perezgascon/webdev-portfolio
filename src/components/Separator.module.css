@@ -1,0 +1,24 @@
+.separator1 {
+    font-size: 10em;
+    padding: 20px;
+    color: #4C4C6D;
+    text-align: center;
+}
+
+.separator2 {
+    font-size: 10em;
+    padding: 20px;
+    color: #1B9C85;
+    text-align: center;
+}
+
+.separator3 {
+    font-size: 10em;
+    padding: 20px;
+    color: #FFE194;
+    text-align: center;
+}
+
+.separatorContainer {
+    text-align: center;
+}
