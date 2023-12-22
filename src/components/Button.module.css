@@ -1,11 +1,32 @@
 .button {
     background-color: #1B9C85;
     border: none;
-    width: 10%;
     height: 45px;
     border-radius: 20px;
     color: #FFE194;
-    font-size: 1.25em;
+    font-size: 16px; 
+    padding: 10px 20px;
     margin-top: 15px;
  
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+
+@media screen and (min-width: 769px) {
+    .button {
+        font-size: 20px;}
+    
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+   
 }

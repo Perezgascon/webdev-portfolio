@@ -1,11 +1,39 @@
 .contactForm {
     width: 75%;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .inputField {
     margin: 5px;
+    display: block;
+
 }
 
 
+
+.buttonContainer {
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .contactForm {
+        text-align: center;
+    }
+
+    .inputField {
+        display: inline-block;}
+
+}
+
+@media screen and (min-width: 769px) {}
+
+
+@media screen and (min-width: 1025px) {}
+
+
+@media screen and (min-width: 1200px) {}
