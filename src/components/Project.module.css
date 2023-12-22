@@ -14,9 +14,10 @@
 @media screen and (min-width: 481px) {}
 
 @media screen and (min-width: 769px) {
+   
+   
     .languageIcon {
         font-size: 0.5em;
-        margin-top: 40px;
     }
 }
 
@@ -27,3 +28,10 @@
     }
 
 }
+
+/* @media screen and (min-width: 1200px) {
+    .languageIcon {
+        font-size: 2em;
+    }
+
+} */

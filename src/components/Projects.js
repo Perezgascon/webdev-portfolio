@@ -16,7 +16,7 @@ export default function Projects() {
       element1={<Card 
         title="Project A" 
         imagePath={mocEcommerce} 
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
         language1={<span className={styles.languageIcon}>HTML</span>}
         language2={<span className={styles.languageIcon}>CSS</span>}
         language3={<span className={styles.languageIcon}>JS</span>} 
@@ -33,7 +33,7 @@ export default function Projects() {
       element3={<Card 
         title="Project C" 
         imagePath={mocEcommerce} 
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
         language1={<span className={styles.languageIcon}>HTML</span>}
         language3={<span className={styles.languageIcon}>JS</span>} 
         />}
@@ -48,7 +48,7 @@ export default function Projects() {
       element5={<Card 
         title="Project E" 
         imagePath={mocEcommerce} 
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
         language1={<span className={styles.languageIcon}>HTML</span>}
         language2={<span className={styles.languageIcon}>CSS</span>}
         language3={<span className={styles.languageIcon}>JS</span>} 

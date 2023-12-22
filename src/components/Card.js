@@ -5,12 +5,14 @@ export default function Cards({ title, imagePath, description, language1, langua
   return (
     <div className={styles.card}>
       <h3>{title}</h3>
-      <img src={imagePath} alt='' />
+      <img className={styles.img} src={imagePath} alt='' />
       <p>{description}</p>
-      <hr></hr>
-        {language1}
-        {language2}
-        {language3}
+      <hr className={styles.horizontalRule}></hr>
+      <div className={styles.flexContainer}>
+        <div>{language1}</div>
+        <div>{language2}</div>
+        <div>{language3}</div>
       </div>
+    </div>
   )
 }
