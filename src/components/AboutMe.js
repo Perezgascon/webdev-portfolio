@@ -1,16 +1,17 @@
 import React from 'react'
-import './AboutMe.module.css'
 import { TypeAnimation } from 'react-type-animation';
+
+import styles from './AboutMe.module.css'
 
 
 export default function AboutMe() {
   return (
-    <div id="About">
+    <div id="About" className={styles.titlesContainer}>
       <h1>Adolfo Perez-Gascon</h1>
       <h1>Front End Developer</h1>
       <h1>SEO Expert</h1>
 
-      <h1>
+      <h1 className={styles.titles}>
       <TypeAnimation
         sequence={[
           'Entrepreneur',

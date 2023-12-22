@@ -1,7 +1,19 @@
-body {
-    padding: 400px 200px;
+
+
+@media screen and (min-width: 481px) {}
+
+@media screen and (min-width: 769px) {
+    .titlesContainer {
+        padding-left: 100px;
+    }
+  
+
 }
 
-h1 {
-    font-size: 2.5rem;
+
+@media screen and (min-width: 1025px) {
+    .titlesContainer {
+        padding-left: 200px;
+    }
+
 }

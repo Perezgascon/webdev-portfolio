@@ -65,10 +65,12 @@
 
     .img {
         margin: 15px auto;
+        height: 50%;
     }
 
     .horizontalRule {
         display: block;
+        margin-bottom: 10px;
     }
 
     .flexContainer {
@@ -94,5 +96,10 @@
 
     .horizontalRule {
         margin-top: 30px;
+    }
+
+    .img {
+        margin: 15px auto;
+        height: 60%;
     }
 }
