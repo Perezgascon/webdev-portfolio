@@ -1,17 +1,16 @@
 import React from 'react'
-import Hero from './Hero'
 import Button from './Button'
+import styles from './Contact.module.css'
 
 export default function Contact() {
   return (
-    <div id="Contact">
-      <Hero title="Send Me a Message"
-      element1={<input type='text' placeholder='Name'></input>}
-      element2={<input type='text' placeholder='Last Name'></input>}
-      element3={<input type='text' placeholder='email'></input>}
-      element4={<input type='text' placeholder='message'></input>}
-      element5={<Button text="Send"/>}
-      />
+    <div id="Contact" className={styles.contactForm}>
+      <h2>Send Me a Message!</h2>
+      <input className={styles.inputField} type='text' placeholder='Name'></input>
+      <input className={styles.inputField} type='text' placeholder='Last Name'></input>
+      <input className={styles.inputField} type='text' placeholder='email'></input>
+      <textarea className={styles.inputField} name="message" rows="10" cols="55" placeholder='Your Message' ></textarea>
+      <Button text={"Send"} />
 
     </div>
   )

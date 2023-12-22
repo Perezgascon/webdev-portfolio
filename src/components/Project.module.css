@@ -1,0 +1,12 @@
+.languageIcon {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 3px;
+    border-radius: 20px;
+    background-color: #4C4C6D;
+    padding: 5px 10px;
+    font-size: 0.7em;
+    width: auto;
+    color: #FFE194;
+    
+}   
