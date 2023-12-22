@@ -1,0 +1,17 @@
+.footerContainer {
+    background-color: #4C4C6D;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #FFE194;
+    font-size: 1.5em;
+    margin: 15px;
+    cursor: pointer;
+}
+
