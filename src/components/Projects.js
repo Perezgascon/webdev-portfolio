@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './Hero'
+import Hero2 from './Hero2'
 import Card from './Card'
 import mocEcommerce from '../assets/moc-ecommerce.png'
 
@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <div id="Projects">
-      <Hero title="My Projects" 
+      <Hero2 title="My Projects" 
       element1={<Card 
         title="Project A" 
         imagePath={mocEcommerce} 

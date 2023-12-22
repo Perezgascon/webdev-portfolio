@@ -1,6 +1,22 @@
 .icon {
-    font-size: 10em;
+    font-size: 5em;
     color: #1B9C85;
-    margin: 20px;
+    margin: 5px;
 }
 
+@media screen and (min-width: 481px) {}
+
+@media screen and (min-width: 769px) {
+    .icon {
+        font-size: 7em;
+    }
+
+}
+
+
+@media screen and (min-width: 1025px) {
+    .icon {
+        font-size: 10em;
+    }
+
+}

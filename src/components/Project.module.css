@@ -1,12 +1,29 @@
 .languageIcon {
     display: inline-block;
-    margin-bottom: 30px;
+    margin: auto;
     margin-right: 3px;
     border-radius: 20px;
     background-color: #4C4C6D;
     padding: 5px 10px;
-    font-size: 0.7em;
+    font-size: 0.5em;
     width: auto;
-    color: #FFE194;
-    
-}   
+    color: hsl(43, 100%, 79%);
+
+}
+
+@media screen and (min-width: 481px) {}
+
+@media screen and (min-width: 769px) {
+    .languageIcon {
+        font-size: 0.5em;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .languageIcon {
+        font-size: 1.2em;
+    }
+
+}

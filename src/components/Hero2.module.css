@@ -1,16 +1,22 @@
 .hero {
-    width: 75%;
+    width: 100%;
     margin: auto;
 }
 
 .heroSection {
-    display: flex;
-    flex-direction: column;
+
 }
 
-@media screen and (min-width: 481px) {}
+
+@media screen and (min-width: 481px) {
+
+}
 
 @media screen and (min-width: 769px) {
+ .hero {
+        width: 100%;
+    }
+
     .heroSection {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -21,10 +27,8 @@
 
 
 @media screen and (min-width: 1025px) {
-
-    .heroSection {
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
+    .hero {
+        width: 75%;
     }
 
 }
