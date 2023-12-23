@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
 import Separator from './components/Separator'
+import Cloud from './components/Cloud'
 
 export default function App() {
 
