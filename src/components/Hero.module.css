@@ -3,6 +3,11 @@
     margin: auto;
 }
 
+.elementsContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .heroSection {
     display: flex;
     flex-direction: column;

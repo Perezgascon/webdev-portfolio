@@ -22,7 +22,7 @@ export default function App() {
       <Projects />
       <Separator />
       <Contact />
-      <Footer /> 
+      <Footer />
     </div>
   )
 }
